@@ -18,11 +18,11 @@ public class MainForm extends JFrame {
         pnlMenu.btnLogin.addActionListener(e -> setPanel(new LoginPanel()));
         // pnlMenu.btnSoldado.addActionListener(e -> setPanel(new SoldadoPanel()));
         pnlMenu.btnHormiga.addActionListener(e -> setPanel(new LZHormigaPanel()));
-        pnlMenu.btnLocalidad.addActionListener(e -> setPanel(new MainPanel()));
+        // pnlMenu.btnLocalidad.addActionListener(e -> setPanel(new MainPanel()));
         // agregar
-        pnlMenu.btnTest.addActionListener(e -> {
-            IAStyle.showMsgError("mensaje de error");
-        });
+        // pnlMenu.btnTest.addActionListener(e -> {
+        //     IAStyle.showMsgError("mensaje de error");
+        // });
     }
 
     private void setPanel(JPanel formularioPanel) {

@@ -16,9 +16,9 @@ import UserInterface.CustomerControl.PatButton;
 public class MenuPanel extends JPanel {
     public PatButton btnHome = new PatButton("Home"),
             btnLogin = new PatButton("Login"),
-            btnHormiga = new PatButton("Hormigas"),
-            btnLocalidad = new PatButton("Localidad"),
-            btnTest = new PatButton("btnTest");
+            btnHormiga = new PatButton("Hormigas");
+            // btnLocalidad = new PatButton("Localidad"),
+            // btnTest = new PatButton("btnTest");
 
     public MenuPanel() {
         customizeComponent();
@@ -41,8 +41,8 @@ public class MenuPanel extends JPanel {
         add(btnHome);
         add(btnLogin);
         add(btnHormiga);
-        add(btnLocalidad);
-        add(btnTest);
+        // add(btnLocalidad);
+        // add(btnTest);
 
         // add-copyright
         add(new JLabel("\u00A9 2024 Edgerunners"));
