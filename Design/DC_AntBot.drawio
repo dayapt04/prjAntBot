@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="PwI3y_meS3A-BAof3AQR" name="Página-1">
-        <mxGraphModel dx="1461" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1835" dy="2159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -130,7 +130,7 @@
                 <mxCell id="43" value="" style="line;strokeWidth=1;fillColor=#020203;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FFFFFF;" parent="41" vertex="1">
                     <mxGeometry y="52" width="263" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="+ AntBot(iaBot : IABot)&#10;+ integrarHormiga(hormiga: Hormiga) : void&#10;+ potenciarFuerza(): void&#10;+ potenciarHabilidad(): void&#10;+ potenciarMovimiento(): void&#10;+ volar(Zangano): void&#10;&#10;" style="text;strokeColor=#FFFFFF;fillColor=#020203;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
+                <mxCell id="44" value="+ AntBot(ia : IA)&#10;+ integrarHormiga(hormiga: Hormiga) : void&#10;+ potenciarFuerza(): void&#10;+ potenciarHabilidad(): void&#10;+ potenciarMovimiento(): void&#10;+ volar(Zangano): void&#10;&#10;" style="text;strokeColor=#FFFFFF;fillColor=#020203;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="41" vertex="1">
                     <mxGeometry y="60" width="263" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="FuentePoder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#020203;strokeColor=#FFFFFF;" parent="1" vertex="1">
@@ -567,7 +567,7 @@
                         <mxPoint x="305" y="310" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="170" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+                <mxCell id="170" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="544" y="92" as="sourcePoint"/>
                         <Array as="points">
@@ -578,7 +578,7 @@
                         <mxPoint x="500" y="50" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="171" value="&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251); text-decoration-line: underline;&quot;&gt;- instancia&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="170">
+                <mxCell id="171" value="&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251); text-decoration-line: underline;&quot;&gt;- instancia&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="170" vertex="1" connectable="0">
                     <mxGeometry x="-0.4434" y="-2" relative="1" as="geometry">
                         <mxPoint x="-60" y="-50" as="offset"/>
                     </mxGeometry>

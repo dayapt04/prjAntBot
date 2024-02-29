@@ -1,5 +1,5 @@
 package BusinessLogic.Entities;
 
-public class Procesador {
+public class LEProcesador {
 
 }
