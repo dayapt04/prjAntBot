@@ -35,8 +35,8 @@ DROP TABLE IF EXISTS Hormiga;
 
 CREATE TABLE Hormiga(
         IdHormiga INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-        IdHormigaClasificacion INTEGER REFERENCES HormigaClasificacion(IdHormigaClasificacion),
-        Nombre VARCHAR(50) NOT NULL,
+        IdHormigaClasificacion INTEGER REFERENCES HormigaClasificacion(IdHosrmigaClasificacion),
+        Nombre VARCHAR(10) NOT NULL,
         Estado VARCHAR(1) NOT NULL DEFAULT ('A'),
         FechaCrea DATETIME DEFAULT (datetime('now', 'localtime')),
         FechaModifica DATETIME
