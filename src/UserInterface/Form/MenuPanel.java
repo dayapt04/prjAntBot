@@ -16,7 +16,7 @@ import UserInterface.CustomerControl.PatButton;
 public class MenuPanel extends JPanel {
     public PatButton btnHome = new PatButton("Home"),
             btnLogin = new PatButton("Login"),
-            btnSoldado = new PatButton("SOLDADO"),
+            btnHormiga = new PatButton("Hormigas"),
             btnLocalidad = new PatButton("Localidad"),
             btnTest = new PatButton("btnTest");
 
@@ -40,7 +40,7 @@ public class MenuPanel extends JPanel {
         // add-botones
         add(btnHome);
         add(btnLogin);
-        add(btnSoldado);
+        add(btnHormiga);
         add(btnLocalidad);
         add(btnTest);
 
