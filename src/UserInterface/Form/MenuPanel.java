@@ -45,6 +45,6 @@ public class MenuPanel extends JPanel {
         add(btnTest);
 
         // add-copyright
-        add(new JLabel("\u00A9 2024 pat_mic"));
+        add(new JLabel("\u00A9 2024 Edgerunners"));
     }
 }
