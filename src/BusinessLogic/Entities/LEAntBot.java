@@ -1,6 +1,6 @@
 package BusinessLogic.Entities;
 
-public class LEAntBot extends JSIA {
+public class LEAntBot extends JSIA implements PAIHormiga{
     private LECircuitoAnillado leCircuitoAnillado;
     private LERadio leRadio;
     private LECircuitoCarga leCircuitoCarga;
@@ -11,6 +11,9 @@ public class LEAntBot extends JSIA {
     private PAAntenaContacto leAntenaContacto;
     // corregir diagrama, hay una interface que ya tiene extremidades que podriamos
     // poner aquí
+    private PAExtremidadInferior paPiernaIzquierda;
+    private PAExtremidadInferior paPiernaDerecha;
+    // private PAExtremidadInferior z
 
     private String leSerieAntBot;
 
