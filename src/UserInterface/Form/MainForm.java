@@ -16,7 +16,7 @@ public class MainForm extends JFrame {
         customizeComponent(tilteApp);
         pnlMenu.btnHome.addActionListener(e -> setPanel(new MainPanel()));
         pnlMenu.btnLogin.addActionListener(e -> setPanel(new LoginPanel()));
-        pnlMenu.btnSoldado.addActionListener(e -> setPanel(new SoldadoPanel()));
+        // pnlMenu.btnSoldado.addActionListener(e -> setPanel(new SoldadoPanel()));
         pnlMenu.btnLocalidad.addActionListener(e -> setPanel(new MainPanel()));
         // agregar
         pnlMenu.btnTest.addActionListener(e -> {

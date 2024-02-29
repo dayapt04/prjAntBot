@@ -15,10 +15,10 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import BusinessLogic.LocalidadBL;
-import BusinessLogic.SexoBL;
-import DataAccess.DTO.LocalidadDTO;
-import DataAccess.DTO.SexoDTO;
+// import BusinessLogic.LocalidadBL;
+// import BusinessLogic.SexoBL;
+// import DataAccess.DTO.LocalidadDTO;
+// import DataAccess.DTO.SexoDTO;
 
 public class Ventana extends JFrame implements ActionListener {
  
@@ -217,69 +217,75 @@ public class Ventana extends JFrame implements ActionListener {
         resadd.setLineWrap(true);
         c.add(resadd);
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+    }
  
     // method actionPerformed()
     // to get the action performed
     // by the user and act accordingly
-    public void actionPerformed(ActionEvent e)
-    {
-        if (e.getSource() == sub) {
-            if (term.isSelected()) {
-                String data1 = "";
-                SexoBL  sbl = new SexoBL();
-                LocalidadBL lBL = new LocalidadBL();
-                try {
-                    for (LocalidadDTO s : lBL.getAll()) {
-                        data1+=s.toString();
-                    }
-                } catch (Exception e1) {
-                    // TODO Auto-generated catch block
-                    e1.printStackTrace();
-                }
-                String data
-                    = "Name : "
-                      + tname.getText() + "\n"
-                      + "Mobile : "
-                      + tmno.getText() + "\n";
-                // if (male.isSelected())
-                //     data1 = "Gender : Male"
-                //             + "\n";
-                // else
-                //     data1 = "Gender : Female"
-                //             + "\n";
-                String data2
-                    = "DOB : "
-                      + (String)date.getSelectedItem()
-                      + "/" + (String)month.getSelectedItem()
-                      + "/" + (String)year.getSelectedItem()
-                      + "\n";
+    // public void actionPerformed(ActionEvent e)
+    // {
+    //     if (e.getSource() == sub) {
+    //         if (term.isSelected()) {
+    //             String data1 = "";
+    //             SexoBL  sbl = new SexoBL();
+    //             LocalidadBL lBL = new LocalidadBL();
+    //             try {
+    //                 for (LocalidadDTO s : lBL.getAll()) {
+    //                     data1+=s.toString();
+    //                 }
+    //             } catch (Exception e1) {
+    //                 // TODO Auto-generated catch block
+    //                 e1.printStackTrace();
+    //             }
+    //             String data
+    //                 = "Name : "
+    //                   + tname.getText() + "\n"
+    //                   + "Mobile : "
+    //                   + tmno.getText() + "\n";
+    //             // if (male.isSelected())
+    //             //     data1 = "Gender : Male"
+    //             //             + "\n";
+    //             // else
+    //             //     data1 = "Gender : Female"
+    //             //             + "\n";
+    //             String data2
+    //                 = "DOB : "
+    //                   + (String)date.getSelectedItem()
+    //                   + "/" + (String)month.getSelectedItem()
+    //                   + "/" + (String)year.getSelectedItem()
+    //                   + "\n";
  
-                String data3 = "Address : " + tadd.getText();
-                tout.setText(data + data1 + data2 + data3);
-                tout.setEditable(false);
-                res.setText("Registration Successfully..");
-            }
-            else {
-                tout.setText("");
-                resadd.setText("");
-                res.setText("Please accept the"
-                            + " terms & conditions..");
-            }
-        }
+    //             String data3 = "Address : " + tadd.getText();
+    //             tout.setText(data + data1 + data2 + data3);
+    //             tout.setEditable(false);
+    //             res.setText("Registration Successfully..");
+    //         }
+    //         else {
+    //             tout.setText("");
+    //             resadd.setText("");
+    //             res.setText("Please accept the"
+    //                         + " terms & conditions..");
+    //         }
+    //     }
  
-        else if (e.getSource() == reset) {
-            String def = "";
-            tname.setText(def);
-            tadd.setText(def);
-            tmno.setText(def);
-            res.setText(def);
-            tout.setText(def);
-            term.setSelected(false);
-            date.setSelectedIndex(0);
-            month.setSelectedIndex(0);
-            year.setSelectedIndex(0);
-            resadd.setText(def);
-        }
-    }
+    //     else if (e.getSource() == reset) {
+    //         String def = "";
+    //         tname.setText(def);
+    //         tadd.setText(def);
+    //         tmno.setText(def);
+    //         res.setText(def);
+    //         tout.setText(def);
+    //         term.setSelected(false);
+    //         date.setSelectedIndex(0);
+    //         month.setSelectedIndex(0);
+    //         year.setSelectedIndex(0);
+    //         resadd.setText(def);
+    //     }
+    // }
 
  }
