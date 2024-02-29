@@ -1,6 +1,6 @@
 package BusinessLogic.Entities;
 
-public class LEHormiga implements PAIHormiga{
+public class LEHormiga implements PAIHormigaExtremidad {
     private String codigoHormiga;
 
     public LEHormiga(String codigoHormiga) {

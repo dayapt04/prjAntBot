@@ -3,7 +3,7 @@ package BusinessLogic.Entities;
 public class PAExtremidadInferior {
     public void paCorrer(int velocidad) {
         System.out.println("[ ANTBOT -> POTENCIAR EXTREMIDADES INFERIORES ]");
-        if (velocidad >= 1 && velocidad <= 200)
+        if (velocidad >= 1 && velocidad <= 100)
             System.out
                     .println(" - El soldado está corriendo a una velocidad de " + velocidad
                             + "km/h gracias al [ANTBOT].");
@@ -13,7 +13,7 @@ public class PAExtremidadInferior {
 
     public void paSaltar(int altitud) {
         System.out.println("[ ANTBOT -> POTENCIAR EXTREMIDADES INFERIORES ]");
-        if (altitud >= 1 && altitud <= 50)
+        if (altitud >= 1 && altitud <= 5)
             System.out.println("- El soldado salta una altura de " + altitud + "metros gracias al [ANTBOT].");
         else
             System.out.println(
