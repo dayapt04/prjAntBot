@@ -19,5 +19,9 @@ public class App {
     
        SplashScreenForm.show();
        MainForm frmMain = new MainForm("AntBot");
-    }
+    
+    Hormiguero hormiguero = new Hormiguero();
+    hormiguero.iniciar();
 }
+}
+
